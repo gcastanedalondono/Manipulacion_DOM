@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<!-- Nosotros lo enlazamos con un archivo de js para poderlo manipular -->
+ <!-- Se quiere que cada que un usuario entre a una página se cambie el header -->
+<!-- Si aprendemos a seleccionar los elementos podemos modificarlos -->
+<!-- Podemos seleccionarlos por id, class, etiqueta -->
+ <!--document.getElementById("app-title")
+<h1 id=​"app-title">​Soy el header de esta app​</h1>​, asi seleccionamos elementos únicos-->
+<!-- Podemos también seleccionar un Id especifico con document.queryselector-->
+<!-- document.querySelector("p"); asi te trae el primer elemento que encuentre--> 
+ <!-- Para que traiga los elementos que tienen un clases  -->
+ <!--documentent.getElementsByClassName("menu-items")-->  
+ <!--Para que traiga varios elementos con una misma etiqueta-->
+ <!--document.getElementsByClassName("menu-items")-->
+ <!--document.getElementsByClassName("menu-items")-->
+ <!--Getelement es más rápido que el query selector-->
+<body>
+  <header>
+    <h1 id="app-title">Soy el header de esta app</h1>
+    <menu>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="menu-items"><a href="#">About me</a></li>
+        <li class="menu-items"><a href="#">Blogs</a></li>
+        <li class="menu-items"><a href="#">Contact</a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <section>
+      <p>Soy el texto principal de esta app</p>
+    </section>
+    <section>
+      <p>Soy el texto secundario de esta app</p>
+      <p>Soy el texto secundario de esta app</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
