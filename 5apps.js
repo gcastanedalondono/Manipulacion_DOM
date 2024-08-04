@@ -7,4 +7,6 @@ function cambiarEstilo() {
     parrafito.style.textAlign = 'center'
     parrafito.style.fontSize = '36px';
 
+    
+
 }
