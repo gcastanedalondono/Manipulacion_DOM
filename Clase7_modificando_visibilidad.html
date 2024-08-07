@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--La tercera forma es classList-->
+<!--nos permite manipular las clases que ya existen-->
+<!-- vamos a jugar con la visibilidad de un botón-->
+
+<!--La tercera forma es classList-->
+<!--nos permite manipular las clases que ya existen-->
+<!-- vamos a jugar con la visibilidad de un botón-->
+
+<!--const button = document.querySelector("button");-->
+
+<!--button.addEventListener("click",()=>{  menu.classList.toggle("invisible");});-->
+<!--Toggle y classList nos permiten pasar de una clase a otra, por eso podemos cambiar la visibilidad de un elemento-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .menu {
+        background-color: blue;
+        font-size: 16px;
+      }
+  
+      .main-menu {
+        color: green
+      }
+  
+      .visible {
+        display: block;
+      }
+  
+      .invisible {
+        display: none;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="app-title">Soy el header de esta app</h1>
+      <menu class="menu">
+        <p>Algo de texto ejemplo</p>
+        <ul id="parent">
+          <li><a href="#">Home</a></li>
+          <li class="menu-items"><a href="#">About me</a></li>
+          <li class="menu-items"><a href="#">Blogs</a></li>
+          <li class="menu-items"><a href="#">Contact</a></li>
+        </ul>
+        <section></section>
+      </menu>
+    </header>
+    <main>
+      <button>Toggle visibility</button>
+      <section>
+        <p>Soy el texto principal de esta <span>app</span></p>
+      </section>
+      <section>
+        <p>Soy el texto principal de esta <span>app</span></p>
+      </section>
+      <section>
+        <p>Soy el texto secundario de esta app</p>
+        <p>Soy el texto secundario de esta app</p>
+        <button onclick="cambiarEstilo()">Cambiar Estilo</button>
+      </section>
+    </main>
+    <script src="apps.js"></script>
+  </body>
+  
+  </html>
