@@ -8,6 +8,13 @@ button.addEventListener("click",()=> {
 }); } */
 
 function cambiarEstilo() {
+    var hache1 =document.querySelector("h1");
+      hache1.style.backgroundColor="blue";
+
+    var menucito =document.getElementById("menu");
+    menucito.style.backgroundColor="orange";
+    menucito.style.fontSize="25px";
+
     var title =document.getElementById("app-title");
     title.style.color="red";  
     title.style.backgroundColor="blue";
@@ -16,5 +23,5 @@ function cambiarEstilo() {
     parrafito.style.textAlign = 'center'
     parrafito.style.fontSize = '36px';
 
-    var menu = document.querySelector("menu");
-    menu.style.backgroundColor = "red";}
+    
+}
