@@ -7,6 +7,11 @@ button.addEventListener("click",()=> {
     
 }); } */
 
+function conclassName(){
+  var menu_class_name = document.getElementsByClassName()
+
+}
+
 function cambiarEstilo() {
     var hache1 =document.querySelector("h1");
       hache1.style.backgroundColor="blue";
