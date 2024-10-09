@@ -8,7 +8,7 @@ button.addEventListener("click",()=> {
 }); } */
 
 function conclassName(){
-  var menu_class_name = document.getElementsByClassName()
+  var menu_class_name = document.getElementsByClassName("")
 
 }
 
@@ -30,3 +30,12 @@ function cambiarEstilo() {
 
     
 }
+
+
+  const button =document.querySelector("button");
+  button.addEventListener("click", () => {
+               menu.classList.toggle("invisible");
+
+          });
+
+          /* class list con toggle permite poder jugar con varias clases de los elementos, es hacer un switch */
