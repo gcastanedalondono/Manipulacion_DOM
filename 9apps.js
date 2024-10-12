@@ -1,7 +1,13 @@
-function creacion_Elemento(){
+function creacion_Elemento_insert_innerHTML(){
     var listArea =document.getElementById("listArea");
     listArea.innerHTML += "<li>item5, Baruch HaShem</li>";
     // Esto hace que el performance baje porque se tiene que renderizar todo a la vez
-    listArea.insertAdjacentHTML("beforeend","<li>item 6</li>")
-    // Este es el ideal para asegurar un buen performance
+    listArea.innerHTML += "<li>item6, día a día la creación se renueva</li>";
+}
+
+function creacion_insert_adjacent(){
+    var listArea2 =document.getElementById("listArea");
+    listArea2.insertAdjacentHTML("beforeend", "<li>elemento 6</li>");
+
+
 }
