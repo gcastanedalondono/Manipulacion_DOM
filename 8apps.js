@@ -24,3 +24,14 @@ function ejercicio_Elemento_insert(){
   listarea.insertAdjacentHTML("afterend", "<li>nuevo item after end</li>");
 
 }
+
+function creacion_parrafo() {
+    var parrafo_nuevo=document.getElementById("parrafo_nuevo");
+    parrafo_nuevo.innerHTML="<p> Creador esto me gusta hacerlo, me gusta programar </p>"
+}
+
+function creacion_parrafo_insert(){
+    var parrafo_insert=document.getElementById("otro_parrafo");
+    parrafo_insert.insertAdjacentHTML("afterbegin","<p> Esta es afterbegin</p>");
+    parrafo_insert.insertAdjacentHTML("afterend", "<p>esta es afterened</p>")
+}
